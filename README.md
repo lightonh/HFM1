@@ -1,5 +1,8 @@
 # HFM1
 
+## Model Diagram
+
+```mermaid
 flowchart TD
   A[rgb: B×3×H×W] --> B1[CFG mask / force_uncond\nrgb_cond]
   X[x_t: B×3×H×W] --> X1[self_cond? concat sc\nx_cat: B×(C_x+sc_ch)×H×W]
